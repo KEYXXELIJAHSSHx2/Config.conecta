@@ -1,7 +1,7 @@
 {
-  "Version": "2.0.0",
+  "Version": "1.1.0",
   "ReleaseNotes": "Nova Atualização Disponível",
-  "UrlUpdate": "https://github.com/KEYXXELIJAHSSHx2/Config.conecta/blob/main/Update",
+  "UrlUpdate": "",
   "Sms": "",
   "EmailFeedback": "elias100ok10@gmail.com",
   "UrlContato": "https://wa.me/5579998540505",
@@ -14,11 +14,11 @@
   ],
   "Servers": [
     {
-      "Name": "SERVIDOR PLUS",
-      "TYPE": "Premium",
+      "Name": "Servidor PLUS",
+      "TYPE": "premium",
       "FLAG": "br.png",
       "ServerIP": "elijahv2ray.tk",
-      "CheckUser": "http://sua_api",
+      "CheckUser": "http://177.153.62.105:5454/checkUser",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -34,7 +34,7 @@
       "TlsIP": "",
       "ProxyIP": "live.vivo.com.br",
       "ProxyPort": "80",
-      "Info": "Tlsws"
+      "Info": "Proxy"
     },
     {
       "Name": "VIVO WS 2",
@@ -43,6 +43,36 @@
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "planosvivointernet.com.br",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "TIM SSL",
+      "FLAG": "tim",
+      "Payload": "GET wss://assistentetim.com.br HTTP/1.0[lf]Host: elijahv2ray.tk[lf]Upgrade: websocket[lf]Connection: Keep-Alive\\nUser-Agent: [ua]\\nReferer: [lf][lf]",
+      "SNI": "assistentetim.com.br",
+      "TlsIP": "172.67.165.192",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM SSL 2",
+      "FLAG": "tim",
+      "Payload": "ET wss://static.r4you.co HTTP/1.1[crlf]Host: elijahv2ray.tk[crlf]Connection: Keep-alive[crlf]Upgrade: ws[crlf][crlf]",
+      "SNI": "static.r4you.co",
+      "TlsIP": "104.26.5.175",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "Oi",
+      "FLAG": "oi",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.56.6",
       "ProxyPort": "80",
       "Info": "Proxy"
     }

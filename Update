@@ -34,6 +34,17 @@
       "SSLPort": "443",
       "USER": "",
       "PASS": ""
+    },
+    {
+      "Name": "Servidor PLUS 3",
+      "TYPE": "premium",
+      "FLAG": "br.png",
+      "ServerIP": "elijahpainelssh.tk",
+      "CheckUser": "http://191.252.101.146:5454/checkUser",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
     }
   ],
   "Networks": [
